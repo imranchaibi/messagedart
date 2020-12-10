@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Cairo', Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #520404;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 0.6em;
+    padding-top: 0.6em;
+    padding-left: 30px;
+}
+.contact{
+    position: absolute;
+      top: 25px;
+      right: 15px;
+      font-size: 20px;
+      display: block;
+      float: right;
+      padding-bottom: 0.6em;
+      padding-top: 0.6em;
+    }
+    a:link, a:visited {
+      color: rgb(67, 77, 73);
+    }
+  
+    a:hover, a:active {
+      color: rgb(0, 60, 255);
+    }
+#main-footer{
+
+        background: #333;
+        color:#fff;
+    
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+h2{
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+    }
+.about{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 1em;
+        padding-top: 1em;
+        padding-left: 30px;
+      }
+.links{
+  
+        text-align: center;
+        padding-bottom: 40px;
+      
+      }
+      
+.media{
+        justify-content: space-around;
+        align-items: center;
+}
+@media (max-width: 800px) {
+  .bigblock {
+    flex-direction: column;
+  }
+  .links{
+    padding-top: 39px;
+    text-align: center;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
